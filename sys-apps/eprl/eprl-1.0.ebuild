@@ -15,10 +15,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/python"
+DEPEND="=dev-lang/python-3.4.5"
 RDEPEND="${DEPEND}"
-
-RESTRICT="nomirror"
 
 python_install() {
 	distutils-r1_python_install
