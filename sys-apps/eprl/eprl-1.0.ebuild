@@ -1,6 +1,6 @@
-# eprl-1.0.ebuild
-# author: borysn
-# license: MIT
+# Copyright 1999-2017 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
 EAPI=6
 PYTHON_COMPAT=(python3_4)
 
