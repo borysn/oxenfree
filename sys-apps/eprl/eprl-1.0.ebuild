@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Edit portage resume list"
 HOMEPAGE="https://github.com/borysn/eprl"
-SRC_URI="https://pypi.python.org/packages/7f/38/078196d2b718a5bf8e1bfb8ac2f4f57fb864fda0b455e43e682fc309d077/eprl-0.10.tar.gz"
+SRC_URI="https://pypi.python.org/packages/c7/ba/def1bc486c151b2f892d061038b3b4842445a4084847feffe0f8c4e7df32/eprl-1.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
