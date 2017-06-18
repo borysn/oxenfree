@@ -4,19 +4,19 @@
 EAPI=6
 PYTHON_COMPAT=(python3_4)
 
-inherit distutils-r1
-
 DESCRIPTION="Edit portage resume list"
 HOMEPAGE="https://github.com/borysn/eprl"
-SRC_URI="https://pypi.python.org/packages/c7/ba/def1bc486c151b2f892d061038b3b4842445a4084847feffe0f8c4e7df32/eprl-1.0.tar.gz"
+RESTRICT="nomirror"
+SRC_URI="https://pypi.python.org/packages/b0/ec/6db3e654323f7a25cf0cfe99435f43d0486b4a4afe937e9612162f211993/eprl-1.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
 DEPEND="=dev-lang/python-3.4.5"
 RDEPEND="${DEPEND}"
+
+inherit distutils-r1
 
 python_install() {
 	distutils-r1_python_install
